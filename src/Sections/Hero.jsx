@@ -107,7 +107,7 @@ const Hero = () => {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
-            className="gradient-text text-center xl:text-6xl md:text-5xl sm:text-4xl text-3xl font-sans font-black pb-3.5"
+            className="bg-gradient-to-r from-[#BEC1CF] from-60% via-[#D5D8EA] via-60% to-[#D5D8EA] to-100% bg-clip-text text-transparent text-center xl:text-6xl md:text-5xl sm:text-4xl text-3xl font-sans font-black pb-3.5"
           >
             Crafting Digital Experiences
           </motion.p>
@@ -180,7 +180,7 @@ const Hero = () => {
         </div>
 
         <div className="absolute bottom-7 left-0 right-0 w-full z-10 sm:px-10 px-5">
-          <a href="#contact" className="w-fit">
+          <a href="#about" className="w-fit">
             <Button name="Let's work together" isBeam containerClass="sm:w-fit w-full sm:min-w-96"/>
           </a>
         </div>
