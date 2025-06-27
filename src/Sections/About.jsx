@@ -67,7 +67,7 @@ const fallbackCopyTextToClipboard = (text) => {
                 <img src="/assets/grid1.png" alt="grid-1" className='w-full sm:h-[276px] h-fit object-contain' />
                 <div>
                     <p className=' text-xl font-semibold mb-2 text-white font-sans'>Hi, I'm Yamin</p>
-                    <p className='text-[#afb0b6] text-base font-sans'>With 8 months of hands-on internship experience, I've sharpened my full-stack development skills and am constantly learning to level up my craft.</p>
+                    <p className='text-[#afb0b6] text-base font-sans'>With 8 months of hands-on internship experience in MERN stack development, I've sharpened my full-stack skills and am constantly learning to level up my craft.</p>
                 </div>
             </div>
             </div>
@@ -77,7 +77,13 @@ const fallbackCopyTextToClipboard = (text) => {
                     <img src="/assets/grid2.png" alt="grid-2" className='w-full sm:h-[276px] h-fit object-contain' />
                     <div>
                         <p className='text-xl font-semibold mb-2 text-white font-sans'>Tech Stack</p>
-                        <p className='text-[#afb0b6] text-base font-sans'>JavaScript developer with a passion for React and full-stack web development using modern tools and frameworks.</p>
+                        <p className='text-[#afb0b6] text-base font-sans leading-relaxed'>
+  <span className="font-semibold text-white">Frontend:</span> React, JavaScript, jQuery, Tailwind CSS, Vite<br />
+  <span className="font-semibold text-white">Backend:</span> Node.js, Express, MongoDB, Mongoose, REST API<br />
+  <span className="font-semibold text-white">3D & Animation:</span> Framer Motion (advanced), basic experience with Three.js, react-three/fiber, drei, and GSAP<br />
+  <span className="font-semibold text-white">Tools & Deployment:</span> Git, GitHub, Postman, Render, Vercel
+</p>
+
                     </div>
                 </div>
             </div>

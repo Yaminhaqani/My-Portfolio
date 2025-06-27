@@ -16,12 +16,6 @@ const Footer = () => {
             </a>
         </div>
 
-          <div className="w-12 h-12 rounded-full flex justify-center items-center bg-[#1C1C21] border border-[#0E0E10]">
-            <a href="https://x.com/yaminhaqani1" target="_blank" rel="noreferrer"  className="w-1/2 h-1/2">
-            <img src="/assets/twitter.svg" alt="twitter" className="w-full h-full"/>
-            </a>
-        </div>
-
         <div className="w-12 h-12 rounded-full flex justify-center items-center bg-[#1C1C21] border border-[#0E0E10]">
             <a href="https://www.instagram.com/yaminhaqani/#" target="_blank" rel="noreferrer"  className="w-1/2 h-1/2">
             <img src="/assets/instagram.svg" alt="instagram" className="w-full h-full"/>

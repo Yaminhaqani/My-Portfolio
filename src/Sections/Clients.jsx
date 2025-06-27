@@ -2,14 +2,14 @@ import { clientReviews } from "../Constants"
 
 const Clients = () => {
   return (
-    <section className="sm:px-10 px-5 my-20">
+    <section className="sm:px-10 px-5 my-20" id="testimonials">
         <h3 className="sm:text-4xl text-3xl font-semibold bg-gradient-to-r from-[#BEC1CF] from-60% via-[#D5D8EA] via-60% to-[#D5D8EA] to-100% bg-clip-text text-transparent">
-            Hear from My Clients
+            Feedback from People I've Worked With
         </h3>
 
         <div className="grid md:grid-cols-2 grid-cols-1 gap-5 mt-12">
             {clientReviews.map(({id, name, review, img, position})=>(
-                <div key={id} className="rounded-lg md:p-10 p-5 col-span-1 bg-[#1C1C21]/50">
+                <div key={id} className="rounded-lg md:p-10 p-5 col-span-1 bg-[#1C1C21]/50 transition-all duration-300 hover:shadow-[0_0_15px_3px_rgba(213,216,234,0.5)] hover:ring-0 hover:ring-[#D5D8EA]">
                     <div>
                         <p className="text-white font-light">{review}</p>
 

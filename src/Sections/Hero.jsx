@@ -88,7 +88,7 @@ const Hero = () => {
 
       <section
         className="min-h-screen 
-    w-full flex flex-col relative"
+    w-full flex flex-col relative" id="home"
       >
         <div className="w-full mx-auto flex flex-col sm:mt-36 mt-20 gap-3  sm:px-10 px-5">
           <p className="sm:text-3xl text-2xl font-medium text-white text-center font-sans">
@@ -148,7 +148,7 @@ const Hero = () => {
                       ? [3.6, 4.2, 2.5]
                       : isTablet
                       ? [6.2,5.8, 2.5]
-                      : [10.5, 4.6, 2.5]
+                      : [10.5, 5.6, 2.5]
                   }
                   rotation={[0, 0, 0]}
                   scale={0.0039}
@@ -160,7 +160,7 @@ const Hero = () => {
                 <Cube 
                 position={isMobile? [2.4, -3.3, 6.9]
                   : isTablet? [3.3, -3.0, 9.7] 
-                : [7.8, -4.2, 7.7]}
+                : [7.8, -3.8, 7.7]}
                   scale={0.5}
                 />
 

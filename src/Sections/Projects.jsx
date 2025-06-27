@@ -32,7 +32,7 @@ const Projects = () => {
 
     
   return (
-    <section className="sm:px-10 px-5 my-20">
+    <section className="sm:px-10 px-5 my-20" id="projects">
       <motion.p
         initial={{ opacity: 0, y: -30 }}
         whileInView={{ opacity: 1, y: 0 }}
