@@ -54,9 +54,9 @@ npm run dev
 
 ## 🌐 Live Preview
 
-- Coming soon! 
-- 🚧 This portfolio is still under construction.
+- [Visit the Live Site](https://my-portfolio-gamma-ten-89.vercel.app/)
 
 ## 📸 Screenshots
-- I'll add them later 🔧
+- ![screencapture-my-portfolio-gamma-ten-89-vercel-app-2025-06-28-02_14_17](https://github.com/user-attachments/assets/3d9143b9-9c3a-4e22-b3eb-a7a0cf352f81)
+
 
