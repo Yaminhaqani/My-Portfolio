@@ -341,6 +341,45 @@ export const myProjects = [
   ]
 },
 
+{
+  title: 'ClaudeChefAI - AI Recipe Assistant',
+  desc: "ClaudeChefAI is a lightweight AI-powered cooking assistant that generates recipe ideas and instructions based on user prompts using OpenRouter's Claude models.",
+  subdesc:
+    'Built using React.js and Tailwind CSS, ClaudeChefAI integrates OpenRouter AI for intelligent recipe generation and uses React Markdown to render AI responses in a clean, formatted way. A simple yet effective project to explore AI integration in frontend apps.',
+  href: 'https://claudechefai.netlify.app/',
+  texture: '/textures/project/Claude.mp4',
+  logo: '/assets/ChefLogoWhite.png',
+  logoStyle: {
+    backgroundColor: '#FFFFFF',
+    border: '1px solid #D1D5DB',
+    boxShadow: '0px 0px 40px 0px #8A8A8A4D',
+  },
+  spotlight: '/assets/spotlight4.png',
+  tags: [
+    {
+      id: 1,
+      name: 'React.js',
+      path: '/assets/react.svg',
+    },
+    {
+      id: 2,
+      name: 'TailwindCSS',
+      path: '/assets/tailwindcss.png',
+    },
+    {
+      id: 3,
+      name: 'OpenRouter AI',
+      path: '/assets/openrouter-logo.png',
+    },
+    {
+      id: 4,
+      name: 'React Markdown',
+      path: '/assets/markdown-logo.png',
+    },
+  ],
+},
+
+
   {
   title: 'Decent Tour and Travels',
   desc: 'Decent Tour and Travels is a responsive and visually engaging travel agency website built for a client using core web technologies, offering information on tour packages, services, and contact options.',
@@ -350,9 +389,10 @@ export const myProjects = [
   texture: '/textures/project/DTT.mp4',
   logo: '/assets/dtt-logo.webp',
   logoStyle: {
-    backgroundColor: '#FFFFFF',
+    backgroundColor: '#1A202C',
     border: '0.2px solid #CCCCCC',
     boxShadow: '0px 0px 30px 0px #FFD70050',
+    
   },
   spotlight: '/assets/spotlight2.png',
   tags: [
@@ -383,4 +423,5 @@ export const myProjects = [
     },
   ],
 },
+
 ];
