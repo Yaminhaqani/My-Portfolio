@@ -78,7 +78,7 @@ const fallbackCopyTextToClipboard = (text) => {
                     <div>
                         <p className='text-xl font-semibold mb-2 text-white font-sans'>Tech Stack</p>
                         <p className='text-[#afb0b6] text-base font-sans leading-relaxed'>
-  <span className="font-semibold text-white">Frontend:</span> React, JavaScript, jQuery, Tailwind CSS, Vite.<br />
+  <span className="font-semibold text-white">Frontend:</span> React, Redux, JavaScript, jQuery, Tailwind CSS, Vite.<br />
   <span className="font-semibold text-white">Backend:</span> Node.js, Express, MongoDB, Mongoose, REST API.<br />
   <span className="font-semibold text-white">3D & Animation:</span> Framer Motion (advanced), basic experience with Three.js, react-three/fiber, drei, and GSAP.<br />
   <span className="font-semibold text-white">Tools & Deployment:</span> Git, GitHub, Postman, ThunderClient, Render, Vercel, Netlify.
