@@ -4,6 +4,12 @@
 
 ---
 
+## 🌐 Live Preview
+
+- [Visit the Live Site](https://yamin-haqani-portfolio.vercel.app/)
+  
+---
+
 ## ✨ About the Project
 
 This portfolio project was my dive into **Three.js** and **GSAP animations**. While I followed a helpful tutorial for the base, I’ve added my own touches and made it responsive, interactive, and visually engaging. Plus, I didn’t have a portfolio before — so this was the perfect excuse to build one!
@@ -51,10 +57,6 @@ npm install
 npm run dev
 ```
 ---
-
-## 🌐 Live Preview
-
-- [Visit the Live Site](https://my-portfolio-gamma-ten-89.vercel.app/)
 
 ## 📸 Screenshots
 - ![screencapture-my-portfolio-gamma-ten-89-vercel-app-2025-06-28-02_14_17](https://github.com/user-attachments/assets/3d9143b9-9c3a-4e22-b3eb-a7a0cf352f81)
